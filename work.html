@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Work — Stefani Tick</title>
+<meta name="description" content="A collection of projects across brand, data, film, and community.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor" id="cur"></div>
+<div class="cursor-ring" id="ring"></div>
+
+<nav class="nav" id="nav">
+  <div class="container">
+    <a href="index.html" class="nav-logo">Stefani<span>.</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="work.html" class="active">Work</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Hero -->
+<div class="page-hero">
+  <div class="container">
+    <div class="sec-label rev">Portfolio</div>
+    <h1 class="sec-title rev">Selected Work</h1>
+    <p class="sec-sub rev">A collection of projects across brand, data, film, and community.</p>
+    <div class="proj-filters rev" id="filters">
+      <button class="proj-filter active" data-filter="all">All</button>
+      <button class="proj-filter" data-filter="brand">Brand & Activation</button>
+      <button class="proj-filter" data-filter="data">Data & Systems</button>
+      <button class="proj-filter" data-filter="community">Community & Leadership</button>
+    </div>
+  </div>
+</div>
+
+<!-- Featured Projects — Expandable Cards -->
+<section style="padding-top: 40px;">
+  <div class="container">
+    <div class="proj-cards stagger">
+
+      <!-- 01. dir() System -->
+      <div class="proj-card rev" id="dir" data-cat="data">
+        <div class="proj-card-header">
+          <div class="proj-card-img">
+            <img src="Media/PILIHAN/dir.jpg" alt="dir() System dashboard" loading="lazy">
+          </div>
+          <div class="proj-card-meta">
+            <span class="proj-card-cat">Data & Systems &middot; 2025</span>
+            <h3>dir() System</h3>
+            <p>Field-to-dashboard intelligence system — now in national rollout.</p>
+            <span class="proj-card-cta">View details <span>&rarr;</span></span>
+          </div>
+          <button class="proj-card-toggle" aria-label="Toggle details">
+            <span></span><span></span>
+          </button>
+        </div>
+        <div class="proj-card-body">
+          <div class="proj-card-body-inner">
+            <h4>Background</h4>
+            <p>Field teams needed a way to capture and act on market data in real time. Existing data was months old, with limited visibility into competitor activity.</p>
+            <h4>What I Did</h4>
+            <p>Co-developed a market intelligence system with a cross-functional team. The system covers: field survey &rarr; data processing (KNIME) &rarr; dashboard (Tableau) &rarr; automated recommendations. I designed the dashboard, wrote the recommendation engine in Python, and shaped how insights reach decision-makers.</p>
+            <h4>Results</h4>
+            <p>First market intelligence system built at the regional level. Approved by HQ for national rollout — now in pilot across multiple regions.</p>
+            <h4>Role & Tools</h4>
+            <p>Dashboard designer &middot; Python developer &middot; Co-architect</p>
+            <div class="proj-tools">
+              <span class="proj-tool">KNIME</span><span class="proj-tool">Python</span><span class="proj-tool">Tableau</span><span class="proj-tool">SharePoint</span><span class="proj-tool">Microsoft Forms</span><span class="proj-tool">Power Apps</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 02. Beatophia -->
+      <div class="proj-card rev" id="beatophia" data-cat="brand">
+        <div class="proj-card-header">
+          <div class="proj-card-img">
+            <img src="Media/PILIHAN/Beatophia_MANADO%20%280-00-24-18%29.jpg" alt="Beatophia" loading="lazy">
+          </div>
+          <div class="proj-card-meta">
+            <span class="proj-card-cat">Brand & Activation &middot; 2018&ndash;2019</span>
+            <h3>Beatophia</h3>
+            <p>National event activation — 2 cities, 10,000+ audience, international artists.</p>
+            <span class="proj-card-cta">View details <span>&rarr;</span></span>
+          </div>
+          <button class="proj-card-toggle" aria-label="Toggle details">
+            <span></span><span></span>
+          </button>
+        </div>
+        <div class="proj-card-body">
+          <div class="proj-card-body-inner">
+            <h4>Background</h4>
+            <p>A growing brand needed a national-scale activation event. The project went through an internal creative tender.</p>
+            <h4>What I Did</h4>
+            <p>Won the internal tender and led the entire creative direction — visual identity, promotional materials, vendor coordination, and consistency across both cities.</p>
+            <h4>Results</h4>
+            <p>2 cities, 10,000+ audience, international artists. In-house creative delivered at a level comparable to external agencies.</p>
+            <h4>Role & Tools</h4>
+            <p>Lead Creative (selected via internal tender)</p>
+            <div class="proj-tools">
+              <span class="proj-tool">Illustrator</span><span class="proj-tool">Photoshop</span><span class="proj-tool">After Effects</span><span class="proj-tool">Premiere Pro</span>
+            </div>
+            <div class="proj-videos">
+              <h4>Videos</h4>
+              <a href="#" class="proj-video-link" data-video="Media/PILIHAN/Beatophia_MANADO.mp4">Beatophia Manado</a>
+              <a href="#" class="proj-video-link" data-video="Media/PILIHAN/Beatophia_BALIKPAPAN.mp4">Beatophia Balikpapan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 03. Eastchamp -->
+      <div class="proj-card rev" id="eastchamp" data-cat="community">
+        <div class="proj-card-header">
+          <div class="proj-card-img">
+            <img src="Media/PILIHAN/EAST%20CHAMP%20%280-00-04-00%29.jpg" alt="Eastchamp MLBB Championship" loading="lazy">
+          </div>
+          <div class="proj-card-meta">
+            <span class="proj-card-cat">Community & Leadership &middot; 2025&ndash;2026</span>
+            <h3>Eastchamp MLBB Championship</h3>
+            <p>Regional championship built from zero — 80+ teams, 500+ participants, live broadcast.</p>
+            <span class="proj-card-cta">View details <span>&rarr;</span></span>
+          </div>
+          <button class="proj-card-toggle" aria-label="Toggle details">
+            <span></span><span></span>
+          </button>
+        </div>
+        <div class="proj-card-body">
+          <div class="proj-card-body-inner">
+            <h4>Background</h4>
+            <p>500+ employees across the region wanted to play competitive Mobile Legends, but no organized structure existed beyond casual games.</p>
+            <h4>What I Did</h4>
+            <p>Founded a regional championship from zero. Designed a 3-stage tournament format, built the bracket system in VBA, created brand identity, promo videos, an original jingle, tournament website, and produced the grand final as a live broadcast.</p>
+            <h4>Results</h4>
+            <p>2026 edition: 8 areas, 80+ teams, 500+ participants. Grand final broadcast live. The format is now a replicable model.</p>
+            <h4>Role & Tools</h4>
+            <p>Founder & Chairman &middot; Creative Director &middot; Web Developer</p>
+            <div class="proj-tools">
+              <span class="proj-tool">Adobe Suite</span><span class="proj-tool">Excel VBA</span><span class="proj-tool">Suno AI</span><span class="proj-tool">Netlify</span><span class="proj-tool">TikTok Live</span>
+            </div>
+            <div class="proj-videos">
+              <h4>Videos</h4>
+              <a href="#" class="proj-video-link" data-video="Media/PILIHAN/EAST%20CHAMP.mp4">Eastchamp Promo</a>
+            </div>
+            <a href="https://eastchamp2026.netlify.app" target="_blank" rel="noopener" class="proj-link">Visit website &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 04. The Bajoel -->
+      <div class="proj-card rev" id="bajoel" data-cat="community">
+        <div class="proj-card-header">
+          <div class="proj-card-img">
+            <img src="Media/PILIHAN/thebajoel.jpg" alt="The Bajoel" loading="lazy">
+          </div>
+          <div class="proj-card-meta">
+            <span class="proj-card-cat">Community & Leadership &middot; 2025</span>
+            <h3>The Bajoel</h3>
+            <p>Umbrella brand for 8 sports communities — scalable identity system.</p>
+            <span class="proj-card-cta">View details <span>&rarr;</span></span>
+          </div>
+          <button class="proj-card-toggle" aria-label="Toggle details">
+            <span></span><span></span>
+          </button>
+        </div>
+        <div class="proj-card-body">
+          <div class="proj-card-body-inner">
+            <h4>Background</h4>
+            <p>8 internal sports communities were active but operating independently — no visual connection between them.</p>
+            <h4>What I Did</h4>
+            <p>Designed an umbrella brand that unifies all communities under a single visual system. Master logo and 8 sport-specific variants, built around a consistent design language.</p>
+            <h4>Results</h4>
+            <p>1 master brand + 8 sport-specific identities, now in active use. First event (Terong Cup tennis tournament) launched under the unified brand.</p>
+            <h4>Role & Tools</h4>
+            <p>Initiator & Creative Director</p>
+            <div class="proj-tools">
+              <span class="proj-tool">Illustrator</span><span class="proj-tool">Photoshop</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 05. Reach(Z) -->
+      <div class="proj-card rev" id="reachz" data-cat="brand">
+        <div class="proj-card-header">
+          <div class="proj-card-img">
+            <img src="Media/PILIHAN/REACHZ.png" alt="Reach(Z) concept" loading="lazy">
+          </div>
+          <div class="proj-card-meta">
+            <span class="proj-card-cat">Brand & Activation &middot; 2025</span>
+            <h3>Reach(Z) — Be Where It Matters</h3>
+            <p>Brand presence concept for Gen Z — coffee shop integration with digital touchpoints.</p>
+            <span class="proj-card-cta">View details <span>&rarr;</span></span>
+          </div>
+          <button class="proj-card-toggle" aria-label="Toggle details">
+            <span></span><span></span>
+          </button>
+        </div>
+        <div class="proj-card-body">
+          <div class="proj-card-body-inner">
+            <h4>Background</h4>
+            <p>Gen Z is the largest consumer age group in Indonesia, but traditional distribution doesn't reach the spaces where they spend time.</p>
+            <h4>What I Did</h4>
+            <p>Created a brand presence concept centered on coffee shop integration — compact branded spaces with digital touchpoints. Developed from research through full presentation and submitted to an internal innovation competition.</p>
+            <h4>Results</h4>
+            <p>Selected for the company's internal innovation competition. Concept validated through consumer research and presented as a full go-to-market proposal.</p>
+            <h4>Role & Tools</h4>
+            <p>Concept creator &middot; Researcher &middot; Presenter</p>
+            <div class="proj-tools">
+              <span class="proj-tool">Illustrator</span><span class="proj-tool">Photoshop</span><span class="proj-tool">After Effects</span><span class="proj-tool">Premiere Pro</span><span class="proj-tool">ElevenLabs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 06. LACL -->
+      <div class="proj-card rev" id="lacl" data-cat="brand">
+        <div class="proj-card-header">
+          <div class="proj-card-img">
+            <img src="Media/PILIHAN/Grand%20Final%20LACL%20%280-00-26-05%29.jpg" alt="LACL Grand Final" loading="lazy">
+          </div>
+          <div class="proj-card-meta">
+            <span class="proj-card-cat">Brand & Activation &middot; 2017</span>
+            <h3>LACL</h3>
+            <p>National basketball competition — regional creative support and Grand Final video concept.</p>
+            <span class="proj-card-cta">View details <span>&rarr;</span></span>
+          </div>
+          <button class="proj-card-toggle" aria-label="Toggle details">
+            <span></span><span></span>
+          </button>
+        </div>
+        <div class="proj-card-body">
+          <div class="proj-card-body-inner">
+            <h4>What I Did</h4>
+            <p>Provided regional creative support for the national basketball competition and created the concept for the Grand Final video.</p>
+            <h4>Role & Tools</h4>
+            <p>Supporting Creative</p>
+            <div class="proj-tools">
+              <span class="proj-tool">Premiere Pro</span><span class="proj-tool">After Effects</span><span class="proj-tool">Photoshop</span>
+            </div>
+            <div class="proj-videos">
+              <h4>Videos</h4>
+              <a href="#" class="proj-video-link" data-video="Media/PILIHAN/Grand%20Final%20LACL.mp4">Grand Final LACL</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 07. K34 Badminton -->
+      <div class="proj-card rev" id="k34" data-cat="community">
+        <div class="proj-card-header">
+          <div class="proj-card-img">
+            <img src="Media/PILIHAN/K34.jpg" alt="K34 Badminton Community" loading="lazy">
+          </div>
+          <div class="proj-card-meta">
+            <span class="proj-card-cat">Community & Leadership &middot; 2022&ndash;present</span>
+            <h3>K34 Badminton Community</h3>
+            <p>Badminton community built from zero — brand identity, website, and annual tournament running 3+ years.</p>
+            <span class="proj-card-cta">View details <span>&rarr;</span></span>
+          </div>
+          <button class="proj-card-toggle" aria-label="Toggle details">
+            <span></span><span></span>
+          </button>
+        </div>
+        <div class="proj-card-body">
+          <div class="proj-card-body-inner">
+            <h4>What I Did</h4>
+            <p>Founded the community, designed the brand identity, built the website, and organized annual tournaments that have been running for 3+ years.</p>
+            <h4>Role & Tools</h4>
+            <p>Founder & Chairman</p>
+            <div class="proj-tools">
+              <span class="proj-tool">Adobe Suite</span><span class="proj-tool">Web Development</span>
+            </div>
+            <a href="https://badmink34.com" target="_blank" rel="noopener" class="proj-link">Visit website &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 08. LED Playlist System — NO IMAGE -->
+      <div class="proj-card rev no-img" id="led" data-cat="data">
+        <div class="proj-card-header">
+          <div class="proj-card-meta">
+            <span class="proj-card-cat">Data & Systems &middot; ~2020&ndash;present</span>
+            <h3>LED Playlist System</h3>
+            <p>Unified VBA system for 30+ LED and in-store screens — ~75% time reduction, still in daily use.</p>
+            <span class="proj-card-cta">View details <span>&rarr;</span></span>
+          </div>
+          <button class="proj-card-toggle" aria-label="Toggle details">
+            <span></span><span></span>
+          </button>
+        </div>
+        <div class="proj-card-body">
+          <div class="proj-card-body-inner">
+            <h4>Background</h4>
+            <p>Content scheduling across 30+ LED and in-store screens was managed through 5 separate files, each updated manually.</p>
+            <h4>What I Did</h4>
+            <p>Built a unified VBA system that consolidated the entire workflow. One input generates all synchronized outputs.</p>
+            <h4>Results</h4>
+            <p>~75% time reduction. Eliminated manual errors. Still in daily use across the region, years after it was created.</p>
+            <h4>Role & Tools</h4>
+            <p>Sole creator & daily operator</p>
+            <div class="proj-tools">
+              <span class="proj-tool">Excel VBA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 09. Narrative Short Films — NO IMAGE -->
+      <div class="proj-card rev no-img" id="films" data-cat="brand">
+        <div class="proj-card-header">
+          <div class="proj-card-meta">
+            <span class="proj-card-cat">Brand & Activation &middot; 2019&ndash;2024</span>
+            <h3>Narrative Short Films</h3>
+            <p>3 narrative short films for corporate events — self-initiated cinematic format that replaced conventional video.</p>
+            <span class="proj-card-cta">View details <span>&rarr;</span></span>
+          </div>
+          <button class="proj-card-toggle" aria-label="Toggle details">
+            <span></span><span></span>
+          </button>
+        </div>
+        <div class="proj-card-body">
+          <div class="proj-card-body-inner">
+            <h4>What I Did</h4>
+            <p>Directed, wrote, and edited narrative short films for corporate events. These weren't typical highlight reels — they told stories with character, structure, and cinematic quality.</p>
+            <h4>Results</h4>
+            <p>3 films produced across 5 years. The format became the standard for regional event videos — replacing conventional corporate reels with cinematic storytelling.</p>
+            <h4>Role & Tools</h4>
+            <p>Director &middot; Writer &middot; Editor</p>
+            <div class="proj-tools">
+              <span class="proj-tool">Premiere Pro</span><span class="proj-tool">After Effects</span>
+            </div>
+            <p class="proj-note">Videos not shown for privacy reasons.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 10. Regional Scorecard System — NO IMAGE -->
+      <div class="proj-card rev no-img" id="scorecard" data-cat="data">
+        <div class="proj-card-header">
+          <div class="proj-card-meta">
+            <span class="proj-card-cat">Data & Systems &middot; 2025</span>
+            <h3>Regional Scorecard System</h3>
+            <p>Regional performance evaluation system — VBA-based, now in active use across all offices.</p>
+            <span class="proj-card-cta">View details <span>&rarr;</span></span>
+          </div>
+          <button class="proj-card-toggle" aria-label="Toggle details">
+            <span></span><span></span>
+          </button>
+        </div>
+        <div class="proj-card-body">
+          <div class="proj-card-body-inner">
+            <h4>What I Did</h4>
+            <p>Initiated and built a regional performance scoring system that standardizes evaluation across all offices in the region.</p>
+            <h4>Results</h4>
+            <p>Adopted as the official evaluation tool across all regional offices. Replaced inconsistent manual scoring with a standardized, automated framework.</p>
+            <h4>Role & Tools</h4>
+            <p>Initiator & Builder</p>
+            <div class="proj-tools">
+              <span class="proj-tool">Excel VBA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 11. Labuan Bajo & Bali Trip Branding — NO IMAGE -->
+      <div class="proj-card rev no-img" id="trips" data-cat="brand">
+        <div class="proj-card-header">
+          <div class="proj-card-meta">
+            <span class="proj-card-cat">Brand & Activation &middot; 2023</span>
+            <h3>Labuan Bajo & Bali Trip Branding</h3>
+            <p>2 complete brand identities for customer reward trips — logo, backdrop, ID card, and merchandise.</p>
+            <span class="proj-card-cta">View details <span>&rarr;</span></span>
+          </div>
+          <button class="proj-card-toggle" aria-label="Toggle details">
+            <span></span><span></span>
+          </button>
+        </div>
+        <div class="proj-card-body">
+          <div class="proj-card-body-inner">
+            <h4>What I Did</h4>
+            <p>Designed complete brand identities for 2 customer reward trips — each with their own logo, event backdrop, participant ID cards, and branded merchandise.</p>
+            <h4>Role & Tools</h4>
+            <p>Creative Designer</p>
+            <div class="proj-tools">
+              <span class="proj-tool">Illustrator</span><span class="proj-tool">Photoshop</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section>
+  <div class="container">
+    <div class="sec-label rev">Gallery</div>
+    <h2 class="sec-title rev">Visual Work</h2>
+    <p class="sec-sub rev">Selected images and event videos.</p>
+    <div class="gallery-grid stagger">
+      <div class="gallery-item is-video rev" data-video="Media/PILIHAN/Beatophia_MANADO.mp4"><img src="Media/PILIHAN/Beatophia_MANADO%20%280-00-24-18%29.jpg" alt="Beatophia Manado" loading="lazy"></div>
+      <div class="gallery-item is-video rev" data-video="Media/PILIHAN/Beatophia_BALIKPAPAN.mp4"><img src="Media/PILIHAN/Beatophia_BALIKPAPAN%20%280-00-26-17%29.jpg" alt="Beatophia Balikpapan" loading="lazy"></div>
+      <div class="gallery-item is-video rev" data-video="Media/PILIHAN/EAST%20CHAMP.mp4"><img src="Media/PILIHAN/EAST%20CHAMP%20%280-00-04-00%29.jpg" alt="Eastchamp promo" loading="lazy"></div>
+      <div class="gallery-item is-video rev" data-video="Media/PILIHAN/Grand%20Final%20LACL.mp4"><img src="Media/PILIHAN/Grand%20Final%20LACL%20%280-00-26-05%29.jpg" alt="Grand Final LACL" loading="lazy"></div>
+      <div class="gallery-item is-video rev" data-video="Media/PILIHAN/Bold%20Music%20-%20Nathalia.mp4"><img src="Media/PILIHAN/Bold%20Music%20-%20Nathalia%20%280-00-13-06%29.jpg" alt="Bold Music — Nathalia" loading="lazy"></div>
+      <div class="gallery-item is-video rev" data-video="Media/PILIHAN/Bold%20Music%20-%20Vamos.mp4"><img src="Media/PILIHAN/Bold%20Music%20-%20Vamos.jpg" alt="Bold Music — Vamos" loading="lazy"></div>
+      <div class="gallery-item is-video rev" data-video="Media/PILIHAN/Troy%20Project%20-%20Onad%20and%20Ghea.mp4"><img src="Media/PILIHAN/Troy%20Project%20-%20Onad%20and%20Ghea%20%280-00-13-00%29.jpg" alt="Troy Project — Onad & Ghea" loading="lazy"></div>
+      <div class="gallery-item is-video rev" data-video="Media/PILIHAN/Iceperience%20-%20Sheila.mp4"><img src="Media/PILIHAN/Iceperience%20-%20Sheila.jpg" alt="Iceperience — Sheila" loading="lazy"></div>
+      <div class="gallery-item is-video rev" data-video="Media/PILIHAN/SuperMusic%20-%20The%20Script.mp4"><img src="Media/PILIHAN/SuperMusic%20-%20The%20Script%20%280-00-18-22%29.jpg" alt="SuperMusic — The Script" loading="lazy"></div>
+      <div class="gallery-item rev" data-src="Media/PILIHAN/Terong-Cup-and-TripleXTennisGan.jpg"><img src="Media/PILIHAN/Terong-Cup-and-TripleXTennisGan.jpg" alt="Terong Cup" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <span class="footer-name">Stefani Tick</span>
+    <p class="footer-copy">Select works shown in this portfolio were created during my employment. All intellectual property rights belong to their respective owners. Displayed here for portfolio purposes only.</p>
+  </div>
+</footer>
+
+<!-- Project Modal -->
+<div class="proj-modal" id="projModal">
+  <div class="proj-modal-inner" id="projModalInner">
+    <button class="proj-modal-close" id="projModalClose">&times;</button>
+    <div id="projModalContent"></div>
+  </div>
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lbClose">&times;</button>
+  <div class="lightbox-content" id="lbContent"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
